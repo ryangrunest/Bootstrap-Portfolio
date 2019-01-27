@@ -1,0 +1,41 @@
+body {
+	background-color: #d0d4db;
+}
+.navbar {
+	padding: 0 1rem;
+	background-color: white;
+}
+.navbar .navbar-brand {
+	height: 75px;
+	line-height: 75px;
+	padding: 0% 3rem;
+	background-color: #59d6c1;
+	color: white;
+}
+.container img {
+	width: 200px;
+}
+.container h3 {
+	color: #59d6c1;
+}
+.img-fluid {
+	min-width: 100%;
+
+}
+.card h5 {
+	color: #59d6c1;
+}
+.card-body {
+	padding: 1rem;
+}
+.card-title {
+	margin: 0;
+}
+.btn-success {
+	background-color: #59d6c1;
+}
+.btn-success:hover {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
