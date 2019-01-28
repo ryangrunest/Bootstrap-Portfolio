@@ -1,6 +1,10 @@
+/*Main*/
 body {
 	background-color: #d0d4db;
+	height: 100%;
 }
+
+/*Nav Bar*/
 .navbar {
 	padding: 0 1rem;
 	background-color: white;
@@ -12,6 +16,12 @@ body {
 	background-color: #59d6c1;
 	color: white;
 }
+/*End Nav Bar*/
+
+/*Main Content*/
+.jumbotron {
+	box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.4);
+}
 .container img {
 	width: 200px;
 }
@@ -20,16 +30,6 @@ body {
 }
 .img-fluid {
 	min-width: 100%;
-
-}
-.card h5 {
-	color: #59d6c1;
-}
-.card-body {
-	padding: 1rem;
-}
-.card-title {
-	margin: 0;
 }
 .btn-success {
 	background-color: #59d6c1;
@@ -38,4 +38,44 @@ body {
 	background-color: white;
 	border: 1px solid black;
 	color: black;
+}
+
+/*Portfolio*/
+ .p-card {
+    margin: 15px auto;
+    padding: 0;
+    border: 1px solid rgb(25, 25, 25, 0.1);
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.p-card img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.p-card h2 {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #59d6c1;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+/*End Portfolio*/
+
+/*Footer*/
+footer {
+    position: fixed;
+    height: 50px;
+    background-color: #76787a;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    border-top: 2px solid #59d6c1;
 }
