@@ -1,4 +1,4 @@
-/*Main*/
+Main*/
 body {
 	background-color: #d0d4db;
 	height: 100%;
@@ -39,6 +39,7 @@ body {
 	border: 1px solid black;
 	color: black;
 }
+/*End Main Content*/
 
 /*Portfolio*/
  .p-card {
@@ -49,12 +50,10 @@ body {
     position: relative;
     box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.4);
 }
-
 .p-card img {
     width: 100%;
     margin: 0 auto;
 }
-
 .p-card h2 {
     position: absolute;
     bottom: 10px;
@@ -79,3 +78,4 @@ footer {
     margin-bottom: 0px;
     border-top: 2px solid #59d6c1;
 }
+/*End Footer CSS
